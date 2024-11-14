@@ -9,7 +9,13 @@
 }
 
 section {
-    position: ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(kos.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px) brightness(30%);
 }
 
 body {
@@ -82,3 +88,19 @@ form button {
     cursor: pointer;
     border-radius: 3px;
 }
+
+form input:focus,
+form textarea:focus{
+    border: 1px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder {
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+
+fo
