@@ -8,6 +8,10 @@
     color: #fff;
 }
 
+section {
+    position: ;
+}
+
 body {
     display: flex;
     min-height: 100vh;
